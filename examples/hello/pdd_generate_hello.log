@@ -1,0 +1,46 @@
+2025-09-07 11:11:29,024 - pdd.llm_invoke - INFO - Using user-specific LLM model CSV: /Users/saicharan/.pdd/llm_model.csv
+2025-09-07 11:11:29,024 - INFO - Using user-specific LLM model CSV: /Users/saicharan/.pdd/llm_model.csv
+2025-09-07 11:11:29,040 - pdd.llm_invoke - INFO - LiteLLM disk cache configured at /Users/saicharan/pdd/litellm_cache.sqlite
+2025-09-07 11:11:29,040 - INFO - LiteLLM disk cache configured at /Users/saicharan/pdd/litellm_cache.sqlite
+Checking for updates...
+2025-09-07 11:11:29,256 - INFO - Determined path for 'output' (default): /Users/saicharan/pdd/examples/hello/hello.py
+Input files:
+  prompt_file     /Users/saicharan/pdd/examples/hello/hello_python.prompt
+Output files:
+  output          /Users/saicharan/pdd/examples/hello/hello.py
+Detected language: python
+Basename: hello
+Successfully loaded prompt: diff_analyzer_LLM
+╭─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│ Starting prompt preprocessing                                                                                                                                   │
+╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+Doubling curly brackets...
+╭─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│ Preprocessing complete                                                                                                                                          │
+╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+[92m11:11:29 - LiteLLM:INFO[0m: utils.py:3337 - 
+LiteLLM completion() model= gemini-2.5-pro; provider = gemini
+2025-09-07 11:11:29,385 - INFO - 
+LiteLLM completion() model= gemini-2.5-pro; provider = gemini
+[92m11:11:36 - LiteLLM:INFO[0m: utils.py:1272 - Wrapper: Completed Call, calling success_handler
+2025-09-07 11:11:36,280 - INFO - Wrapper: Completed Call, calling success_handler
+Successfully loaded prompt: code_patcher_LLM
+╭─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│ Starting prompt preprocessing                                                                                                                                   │
+╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+Doubling curly brackets...
+╭─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│ Preprocessing complete                                                                                                                                          │
+╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+[92m11:11:36 - LiteLLM:INFO[0m: utils.py:3337 - 
+LiteLLM completion() model= gemini-2.5-pro; provider = gemini
+2025-09-07 11:11:36,295 - INFO - 
+LiteLLM completion() model= gemini-2.5-pro; provider = gemini
+[92m11:11:43 - LiteLLM:INFO[0m: utils.py:1272 - Wrapper: Completed Call, calling success_handler
+2025-09-07 11:11:43,090 - INFO - Wrapper: Completed Call, calling success_handler
+Generated code saved to: /Users/saicharan/pdd/examples/hello/hello.py
+
+--- Command Chain Execution Summary ---
+  Step 1 (Unknown Command 1): Cost: $0.014828, Model: gemini/gemini-2.5-pro
+Total Estimated Cost for Chain: $0.014828
+-------------------------------------

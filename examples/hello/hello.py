@@ -1,5 +1,3 @@
 def hello() -> None:
-  """Prints the string 'hello'."""
-  print("hello")
-if __name__ == "__main__":
-    hello()
+    """Prints the string 'hello' to the console."""
+    print("hello")
